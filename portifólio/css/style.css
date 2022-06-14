@@ -1,0 +1,39 @@
+@keyframes animation { 
+    15% {width:23px;height: 23px;}
+    70% {margin-top: 50px;}
+    100% { margin-top: 845px;}
+
+   
+}
+body {
+    color: white;
+}
+.heart {
+    width: 23px;
+    height: 23px;
+    margin-top: 845px;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-delay: 1s; 
+    position: fixed;
+}
+/* End Animation */
+
+#home {
+    
+    height: 600px;
+    margin-top:auto;
+}
+
+span {
+    color: rgb(221, 21, 114);
+}
+
+#about {
+    height: 600px;
+
+}
+
+footer {
+    height: 400px;
+}
